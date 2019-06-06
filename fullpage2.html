@@ -1,0 +1,405 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>더위사냥 in 대프리카 </title>
+<style>
+*, ::before, ::after {
+box-sizing: border-box;
+}
+body {
+position: relative;
+margin: 0;
+overflow: hidden;
+display: flex;
+height: 100vh;
+flex-direction: column;
+line-height: 1.5;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 62.5%;
+background-color: #000000;
+}
+.scrolls {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+right: 1.25em;
+z-index: 2;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 2rem;
+}
+.scrolls .center {
+font-size: 0.825rem;
+}
+.smooth {
+position: relative;
+width: 100%;
+height: 100%;
+scroll-behavior: smooth;
+overflow-y: scroll;
+scroll-snap-type: mandatory;
+scroll-snap-points-y: repeat(100vh);
+scroll-snap-type: y mandatory;
+}
+
+
+section {
+  margin: 0 auto;
+position: relative;
+display: flex;
+width: 85%;
+min-height: 100vh;
+flex-flow: column wrap;
+align-items: center;
+justify-content: center;
+
+background-color: #f4f4f4;
+background-image: url(main.png);
+background-size: cover;
+scroll-snap-align: center;
+}
+
+section:nth-child(2) {
+background-image: url(when.png);
+}
+
+section:nth-child(3) {
+background-image: url(where.png);
+}
+
+section:nth-child(4) {
+background-image: url(where_raincoat.png);
+}
+
+section:nth-child(5) {
+background-image: url(what.png);
+}
+
+
+
+#table1{position: relative;
+left:-35px;
+bottom:+432px;
+}
+
+#table2{position: relative;
+left:-35px;
+bottom:+412px;
+}
+
+#table3{position: relative;
+          bottom:+300px;
+          left:-35px;
+                }
+                #table4{position: relative;
+                          bottom:+412px;
+                          left:-35px;
+                                }
+
+#table0{position: relative;
+
+bottom:-80px;      }
+
+#table3_01{position: relative;
+                bottom:+80px;
+                left:+20px;
+                 }
+
+#change:hover {    background: url('icecream_02.png') no-repeat;
+    height: 108px;
+    width: 63px;
+}
+
+
+#change2:hover {    background: url('egg_02.png') no-repeat;
+    height: 108px;
+    width: 63px;
+}
+
+
+#change3:hover {    background: url('cone_02.png') no-repeat;
+    height: 108px;
+    width: 63px;
+}
+
+
+
+
+#yes:hover {
+opacity: 0; }
+
+
+
+#change_02:hover {background: url('egg_serve_02.png') no-repeat;
+    height: 88.5px;
+    width: 59px;
+}
+#change_0333:hover {background: url('egg_serve_02.png') no-repeat;
+    height: 88.5px;
+    width: 59px;
+}
+
+
+#change_03:hover {background: url('cone_serve_02.png') no-repeat;
+    height: 88.5px;
+    width: 59px;
+}
+
+#change_033:hover {background: url('cone_serve_02.png') no-repeat;
+    height: 88.5px;
+    width: 59px;
+}
+#change_022:hover {background: url('icecream_serve_03.png') no-repeat;
+    height: 88.5px;
+    width: 59px;
+}
+
+#change_0222:hover {background: url('icecream_serve_03.png') no-repeat;
+    height: 88.5px;
+    width: 59px;
+}
+
+
+#raincoat:hover {    background: url('비옷을구매한다_02.png') no-repeat;
+              height: 180px;
+              width: 195px;
+}
+
+#concert:hover {    background: url('공연을관람한다_02.png') no-repeat;
+              height: 180px;
+              width: 195px;
+}
+
+.e_world:hover {    background: url('e-world_change.png') no-repeat;
+              height:24px;
+              width: 119px;
+}
+.e_world{width: 119px; height: 24px; z-index:1px;
+        position: relative;
+        left:-340px;
+        bottom:+180px;
+      }
+
+#month{width: 64px; height: 72px;
+position: relative; left:-760px; bottom:-28px; }
+
+#july{float: left; width:64px; height:36px;}
+#july:hover{background: url("july_02.png");
+            height: 93.5px; width: 159px; opacity: 1; z-index: 5px;}
+.july:hover{opacity: 0;}
+#august{float: left; width:64px; height:36px;}
+#august:hover{background: url("august_02.png");
+            height: 93.5px; width: 277px; opacity: 1; z-index: 5px;}
+.august:hover{opacity: 0;}
+
+</style>
+</head>
+
+<body>
+  <div class="smooth">
+<section id="home">
+
+  <table id="table0" width="336px" height="108px">
+
+  <td id="change">
+   <a href="#when">
+       <img id="yes" src="icecream.png" >
+   </a>
+  </td>
+
+  <td id="fix">
+    <img src="dote.png" >
+
+  </td>
+
+  <td id="change2">
+  <a href="#where">
+    <img id="yes" src="egg.png" >
+  </a>
+  </td>
+
+  <td id="fix">
+    <img src="dote.png" >
+  </td>
+
+  <td id="change3">
+  <a href="#what">
+       <img id="yes" src="cone.png" >
+   </a>
+  </td>
+
+  </table>
+
+</section>
+
+<section id="when">
+  <div id="month">
+  <div id="july">
+  <img class="july" src="july.png">
+  </div>
+  <div id="august">
+  <img class="august" src="august.png">
+  </div>
+</div>
+
+<table id="table1"width="263px" height="88.5px">
+
+  <td >
+   <a href="#when">
+       <img src="icecream_serve.png" >
+   </a>
+  </td>
+
+  <td id="fix">
+    <img src="dote.png" >
+  </td>
+
+  <td id="change_02">
+  <a href="#where">
+       <img id="yes" src="egg_serve.png" >
+   </a>
+  </td>
+
+  <td id="fix">
+    <img src="dote.png" >
+  </td>
+
+  <td id="change_03">
+    <a href="#what">
+       <img id="yes" src="cone_serve.png" >
+   </a>
+  </td>
+
+  </table>
+
+
+
+
+
+</section>
+
+<section id="where">
+  <div class="e_world">
+    <a href="http://www.eworld.kr/main/main.htm">
+  <img id="yes" src="e-world.png">
+</a>
+ </div>
+
+    <table id="table2" width="263px" height="88.5px">
+      <td id="change_022">
+       <a href="#when">
+          <img id="yes" src="icecream_serve_02.png" >
+       </a>
+      </td>
+
+       <td id="fix">
+         <img src="dote.png" >
+       </td>
+
+       <td >
+          <a href="#where">
+           <img  src="egg_serve_03.png" >
+          </a>
+        </td>
+
+      <td id="fix">
+        <img src="dote.png" >
+      </td>
+
+      <td id="change_033">
+        <a href="#what">
+          <img id="yes" src="cone_serve.png" >
+        </a>
+      </td>
+
+</table>
+</section>
+<section id="raincoat">
+  <table id="table4" width="263px" height="88.5px">
+  <td id="change_0222">
+     <a href="#when">
+     <img id="yes" src="icecream_serve_02.png" >
+    </a>
+  </td>
+
+  <td id="fix">
+    <img src="dote.png" >
+  </td>
+
+  <td id="change_0333">
+    <a href="#where">
+       <img id="yes" src="egg_serve.png" >
+    </a>
+  </td>
+
+  <td id="fix">
+    <img src="dote.png" >
+  </td>
+
+  <td>
+     <a href="#what">
+       <img  src="cone_serve_03.png" >
+     </a>
+  </td>
+
+  </table>
+</section>
+
+<section id="what">
+    <table id="table3" width="263px" height="88.5px">
+    <td id="change_0222">
+       <a href="#when">
+       <img id="yes" src="icecream_serve_02.png" >
+      </a>
+    </td>
+
+    <td id="fix">
+      <img src="dote.png" >
+    </td>
+
+    <td id="change_0333">
+      <a href="#where">
+         <img id="yes" src="egg_serve.png" >
+      </a>
+    </td>
+
+    <td id="fix">
+      <img src="dote.png" >
+    </td>
+
+    <td>
+       <a href="#what">
+         <img  src="cone_serve_03.png" >
+       </a>
+    </td>
+
+    </table>
+
+    <table id="table3_01" width="595px" height="108px">
+      <td id="raincoat" align="middle">
+        <a href="#raincoat">
+            <img id="yes" src="비옷을구매한다.png" >
+        </a>
+      </td>
+
+      <td id="concert" align="middle">
+        <a href="what_concert.html">
+            <img id="yes" src="공연을관람한다.png" >
+        </a>
+      </td>
+
+    <td id="rancoat" align="middle">
+              <img src="get-wet.png" >
+
+        </td>
+
+    </table>
+</section>
+</div>
+</body>
+
+</html>
